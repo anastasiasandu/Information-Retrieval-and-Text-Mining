@@ -1,0 +1,20 @@
+[project]
+name = "ethics-assistant"
+version = "1.0.0"
+description = "RAG-based Q&A system for MIT Ethics course (24.231)"
+requires-python = ">=3.10"
+dependencies = [
+    "pymupdf>=1.24.0",
+    "scikit-learn>=1.4.0",
+    "sentence-transformers>=2.7.0",
+    "numpy>=1.26.0",
+    "python-dotenv>=1.0.0",
+    "google-genai>=0.5.0",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "ipykernel>=6.29.0",
+    "jupyter>=1.0.0",
+]
+
